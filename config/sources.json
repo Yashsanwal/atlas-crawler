@@ -1,0 +1,159 @@
+{
+  "_comment": "Seed HUBS only (not individual scholarships). The crawler discovers scholarship programmes by following links from hubs, classifying each destination, and keeping only pages that look like scholarship detail pages. 'nsp_table' hubs use a structured parser; 'generic' hubs use keyword-guided link following; 'aggregator' hubs are used for LEAD discovery only - nothing is verified from them.",
+  "hubs": [
+    {
+      "url": "https://scholarships.gov.in/All-Scholarships",
+      "mode": "nsp_table"
+    },
+    {
+      "url": "https://www.reliancefoundation.org/education",
+      "mode": "generic"
+    },
+    {
+      "url": "https://www.tatatrusts.org/our-work/individual-grants-programmes/education-grants",
+      "mode": "generic"
+    },
+    {
+      "url": "https://jntataendowment.org/loan-scholarship-process",
+      "mode": "generic",
+      "programme_name": "J N Tata Endowment Loan Scholarship for Higher Studies"
+    },
+    {
+      "url": "https://www.chevening.org/scholarship/india/",
+      "mode": "generic"
+    },
+    {
+      "url": "https://www.sitaramjindalfoundation.org/scholarships.php",
+      "mode": "generic"
+    },
+    {
+      "url": "https://online-inspire.gov.in/",
+      "mode": "generic"
+    },
+    {
+      "url": "https://kcmet.org/what-we-do-Scholarship-Grants.aspx",
+      "mode": "generic"
+    },
+    {
+      "url": "https://www.daad.in/en/find-funding/scholarship-database/",
+      "mode": "generic"
+    },
+    {
+      "url": "https://cscuk.fcdo.gov.uk/scholarships/",
+      "mode": "generic"
+    },
+    {
+      "url": "https://www.inlaksfoundation.org/scholarships/",
+      "mode": "generic"
+    },
+    {
+      "url": "https://www.flame.edu.in/admissions/scholarships",
+      "mode": "generic"
+    },
+    {
+      "url": "https://www.vit.ac.in/admissions/scholarships",
+      "mode": "generic"
+    },
+    {
+      "url": "https://www.nitk.ac.in/scholarships",
+      "mode": "generic"
+    },
+    {
+      "url": "https://www.iitk.ac.in/dosa/scholarships",
+      "mode": "generic"
+    },
+    {
+      "url": "https://nitt.edu/home/academics/scholarships/",
+      "mode": "generic"
+    },
+    {
+      "url": "https://www.christuniversity.in/scholarships",
+      "mode": "generic"
+    },
+    {
+      "url": "https://www.scholarships.net.in/",
+      "mode": "aggregator"
+    }
+  ],
+  "registry": {
+    "_comment": "Official-domain registry: domain suffix -> (organisation, source_type). Domains not matched here and not covered by TLD rules are 'unknown' and can never be VERIFIED.",
+    "reliancefoundation.org": [
+      "Reliance Foundation",
+      "corporate_csr"
+    ],
+    "tatatrusts.org": [
+      "Tata Trusts",
+      "foundation_trust"
+    ],
+    "jntataendowment.org": [
+      "J N Tata Endowment",
+      "foundation_trust"
+    ],
+    "sitaramjindalfoundation.org": [
+      "Sitaram Jindal Foundation",
+      "foundation_trust"
+    ],
+    "kcmet.org": [
+      "K. C. Mahindra Education Trust",
+      "foundation_trust"
+    ],
+    "nsfoundation.co.in": [
+      "Narotam Sekhsaria Foundation",
+      "foundation_trust"
+    ],
+    "chevening.org": [
+      "Chevening (UK FCDO)",
+      "international"
+    ],
+    "daad.in": [
+      "DAAD India",
+      "international"
+    ],
+    "daad.de": [
+      "DAAD",
+      "international"
+    ],
+    "usief.org.in": [
+      "USIEF (Fulbright)",
+      "international"
+    ],
+    "inlaksfoundation.org": [
+      "Inlaks Shivdasani Foundation",
+      "foundation_trust"
+    ],
+    "cscuk.fcdo.gov.uk": [
+      "Commonwealth Scholarship Commission (UK)",
+      "international"
+    ],
+    "christuniversity.in": [
+      "CHRIST (Deemed to be University)",
+      "university"
+    ],
+    "tatatrusts.fluxx.io": [
+      "Tata Trusts",
+      "foundation_trust"
+    ]
+  },
+  "aggregators": [
+    "buddy4study.com",
+    "scholarships.net.in",
+    "scholarshipsinindia.com",
+    "vidyalakshmi.co.in",
+    "careers360.com",
+    "shiksha.com",
+    "collegedunia.com",
+    "scholarshipportal.com",
+    "scholars4dev.com"
+  ],
+  "gov_suffixes": [
+    ".gov.in",
+    ".nic.in",
+    ".gov",
+    ".gov.uk"
+  ],
+  "univ_suffixes": [
+    ".ac.in",
+    ".edu.in",
+    ".edu"
+  ]
+}

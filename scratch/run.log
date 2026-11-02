@@ -1,0 +1,207 @@
+/Users/yashsanwal/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[hub] nsp_table  https://scholarships.gov.in/All-Scholarships
+   parsed 31 scheme cards
+Multiple definitions in dictionary at byte 0x76a733 for key /Info
+Multiple definitions in dictionary at byte 0x76a740 for key /Info
+Multiple definitions in dictionary at byte 0x76a733 for key /Info
+Multiple definitions in dictionary at byte 0x76a740 for key /Info
+   NEW        91.5% REVIEW_REQUIRED  Prime Minister'S Scholarship Scheme For Wards Of States/UTs Police Per
+   NEW        90.4% REVIEW_REQUIRED  Prime Minister'S Scholarship Scheme For Central Armed Police Forces An
+   NEW       100.0% VERIFIED         AICTE - Swanath Scholarship Scheme ( Technical Degree)
+   NEW        99.6% VERIFIED         PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh
+   NEW        88.0% REVIEW_REQUIRED  AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Degre
+   NEW        88.0% REVIEW_REQUIRED  AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Diplo
+   NEW       100.0% VERIFIED         AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Techn
+   NEW       100.0% VERIFIED         AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Techn
+   NEW       100.0% VERIFIED         AICTE - Swanath Scholarship Scheme (Technical Diploma)
+   NEW       100.0% VERIFIED         National Scholarship For Post Graduate Studies
+   NEW       100.0% VERIFIED         Ishan Uday Special Scholarship Scheme For NER
+   NEW        75.8% REVIEW_REQUIRED  Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsd
+   NEW        75.8% REVIEW_REQUIRED  Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsd
+   NEW        87.5% REVIEW_REQUIRED  PM YASASVI Central Sector Scheme Of Top Class Education In Schools For
+   NEW        99.7% VERIFIED         PM YASASVI Central Sector Scheme Of Top Class Education In College For
+   NEW        73.5% REVIEW_REQUIRED  National Renewable Energy Fellowship Scheme
+   NEW        98.7% VERIFIED         Stipend Scheme For Under Graduate And Post Graduate Studies In Indian 
+   NEW        80.0% REVIEW_REQUIRED  Icar National Talent Scholarship(Nts-Ug)
+   NEW        79.6% REVIEW_REQUIRED  Icar Post Graduate Scholarship(Pgs)
+   NEW        79.4% REVIEW_REQUIRED  Icar National Talent Scholarship(Nts-Pg)
+   NEW        79.6% REVIEW_REQUIRED  Icar Junior Research Fellowships(Jrf) And Senior Research Fellowships(
+   NEW        99.0% VERIFIED         Central Sector Scholarship Of Top Class Education For SC Students
+   NEW       100.0% VERIFIED         Free Coaching For Scs OBCs And Beneficiaries Of PM Cares Children Sche
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/MyriadPro-Regular', '/Encoding': '/WinAnsiEncoding', '/FirstChar': 0, '/FontDescriptor': IndirectObject(43, 0, 4431488576), '/LastChar': 255, '/Subtype': '/Type1', '/Type': '/Font', '/Widths': [500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 212, 230, 337, 497, 513, 792, 605, 188, 284, 284, 415, 596, 207, 307, 207, 343, 513, 513, 513, 513, 513, 513, 513, 513, 513, 513, 207, 207, 596, 596, 596, 406, 737, 612, 542, 580, 666, 492, 487, 646, 652, 239, 370, 542, 472, 804, 658, 689, 532, 689, 538, 493, 497, 647, 558, 846, 571, 541, 553, 284, 341, 284, 596, 500, 300, 482, 569, 448, 564, 501, 292, 559, 555, 234, 243, 469, 236, 834, 555, 549, 569, 563, 327, 396, 331, 551, 481, 736, 463, 471, 428, 284, 239, 284, 596, 282, 513, 282, 207, 513, 356, 1000, 500, 500, 300, 1156, 493, 255, 894, 282, 553, 282, 282, 207, 207, 354, 354, 282, 500, 1000, 300, 619, 396, 255, 863, 282, 428, 541, 212, 230, 513, 513, 513, 513, 239, 519, 300, 677, 346, 419, 596, 307, 419, 300, 318, 596, 311, 305, 300, 553, 512, 207, 300, 244, 355, 419, 759, 759, 759, 406, 612, 612, 612, 612, 612, 612, 788, 580, 492, 492, 492, 492, 239, 239, 239, 239, 671, 658, 689, 689, 689, 689, 689, 596, 689, 647, 647, 647, 647, 541, 531, 548, 482, 482, 482, 482, 482, 482, 773, 448, 501, 501, 501, 501, 234, 234, 234, 234, 541, 555, 549, 549, 549, 549, 549, 596, 549, 551, 551, 551, 551, 471, 569, 471]}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+   NEW        90.9% REVIEW_REQUIRED  Pre Matric Scholarship For Students With Disabilities
+   NEW        91.6% REVIEW_REQUIRED  Post Matric Scholarship For Students With Disabilities
+   NEW        91.6% REVIEW_REQUIRED  Scholarship For Top Class Education For Students With Disabilities
+   NEW        76.2% REVIEW_REQUIRED  National Means Cum Merit Scholarship
+   NEW        99.6% VERIFIED         PM-USP – Central Sector Scheme Of Scholarship For College And Universi
+   NEW        99.0% VERIFIED         National Fellowship And Scholarship For Higher Education Of ST Student
+   NEW        91.6% REVIEW_REQUIRED  Financial Support To The Students Of NER For Higher Professional Cours
+   NEW        79.5% REVIEW_REQUIRED  Prime Minister'S Scholarship Scheme For Ministry Of Railways
+[hub] generic    https://www.reliancefoundation.org/education
+   discovered 2 programmes
+   NEW        77.7% REVIEW_REQUIRED  Reliance Foundation Scholarships
+   NEW        53.5% REVIEW_REQUIRED  Reliance Foundation 14082026   Mr   Reliance Foundation’S Prestigious 
+[hub] generic    https://www.tatatrusts.org/our-work/individual-grants-programmes/education-grants
+   discovered 1 programmes
+   NEW        76.0% REVIEW_REQUIRED  Tata Trusts Means Grant Programme
+[hub] generic    https://jntataendowment.org/loan-scholarship-process
+   discovered 1 programmes
+   NEW        59.6% REVIEW_REQUIRED  J N Tata Endowment Loan Scholarship for Higher Studies
+[hub] generic    https://www.chevening.org/scholarship/india/
+   discovered 3 programmes
+   NEW        71.8% REVIEW_REQUIRED  Chevening Scholarship
+   NEW        79.5% REVIEW_REQUIRED  Chevening Scholarships
+   NEW        68.3% REVIEW_REQUIRED  Chevening Fellowships
+[hub] generic    https://www.sitaramjindalfoundation.org/scholarships.php
+   discovered 1 programmes
+   NEW        58.5% REVIEW_REQUIRED  Scholarship for Degree Students (BE, Diploma, B.com. PG)
+[hub] generic    https://online-inspire.gov.in/
+   discovered 2 programmes
+   NEW        68.8% REVIEW_REQUIRED  Scholarship for Higher Education(SHE)
+   NEW        70.7% REVIEW_REQUIRED  INSPIRE Fellowship Guidelines
+[hub] generic    https://kcmet.org/what-we-do-Scholarship-Grants.aspx
+   discovered 0 programmes
+[hub] generic    https://www.daad.in/en/find-funding/scholarship-database/
+   discovered 1 programmes
+   NEW        41.3% REVIEW_REQUIRED  DAAD Scholarships: To and From Germany
+[hub] generic    https://cscuk.fcdo.gov.uk/scholarships/
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/ELZZJQ+Helvetica', '/FontDescriptor': IndirectObject(31, 0, 4525310544), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 32, '/Widths': [278], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/ELZZJQ+Helvetica', '/FontDescriptor': IndirectObject(31, 0, 4529158656), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 32, '/Widths': [278], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/SXDDME+Helvetica-Oblique', '/FontDescriptor': IndirectObject(21, 0, 4521492000), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 722, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 556, 500, 556, 556, 278, 0, 556, 222, 0, 0, 222, 833, 556, 556, 556, 0, 333, 500, 278, 556, 0, 722, 0, 500], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/ZIRGBJ+Helvetica-Bold', '/FontDescriptor': IndirectObject(13, 0, 4521492000), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 0, 333, 333, 0, 0, 0, 0, 278, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 333, 0, 0, 0, 0, 0, 0, 722, 0, 722, 722, 667, 611, 778, 722, 278, 0, 722, 611, 833, 722, 778, 667, 0, 722, 667, 611, 722, 667, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 611, 556, 611, 556, 333, 611, 611, 278, 0, 0, 278, 889, 611, 611, 611, 0, 389, 556, 333, 611, 556, 0, 556, 556], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/ZNMUJX+Helvetica', '/FontDescriptor': IndirectObject(15, 0, 4521492000), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 163, '/Widths': [278, 0, 0, 0, 0, 0, 0, 0, 333, 333, 0, 0, 278, 333, 278, 278, 556, 556, 556, 0, 556, 0, 0, 0, 0, 556, 278, 0, 0, 0, 0, 0, 0, 667, 667, 722, 722, 667, 611, 0, 722, 278, 0, 0, 556, 0, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 556, 0, 556, 556, 500, 556, 556, 278, 556, 556, 222, 0, 500, 222, 833, 556, 556, 556, 556, 333, 500, 278, 556, 500, 722, 0, 500, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/JHFZJQ+Times-Roman', '/FontDescriptor': IndirectObject(13, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 32, '/Widths': [250], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/HXFYLK+Helvetica-Bold', '/FontDescriptor': IndirectObject(15, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 333, 278, 278, 0, 556, 556, 556, 556, 556, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 722, 0, 722, 722, 667, 0, 778, 722, 278, 0, 722, 611, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 611, 556, 611, 556, 333, 611, 611, 278, 0, 0, 278, 889, 611, 611, 611, 0, 389, 556, 333, 611, 0, 778, 0, 556], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/DDDTXV+Helvetica', '/FontDescriptor': IndirectObject(9, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 191, 333, 333, 0, 0, 278, 333, 278, 0, 556, 556, 556, 556, 556, 556, 556, 556, 0, 0, 278, 278, 0, 0, 0, 0, 1015, 667, 667, 722, 722, 667, 611, 0, 722, 278, 0, 667, 0, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 556, 500, 556, 556, 278, 556, 556, 222, 222, 500, 222, 833, 556, 556, 556, 556, 333, 500, 278, 556, 500, 722, 500, 500], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/HXFYLK+Helvetica-Bold', '/FontDescriptor': IndirectObject(15, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 333, 278, 278, 0, 556, 556, 556, 556, 556, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 722, 0, 722, 722, 667, 0, 778, 722, 278, 0, 722, 611, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 611, 556, 611, 556, 333, 611, 611, 278, 0, 0, 278, 889, 611, 611, 611, 0, 389, 556, 333, 611, 0, 778, 0, 556], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/DDDTXV+Helvetica', '/FontDescriptor': IndirectObject(9, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 191, 333, 333, 0, 0, 278, 333, 278, 0, 556, 556, 556, 556, 556, 556, 556, 556, 0, 0, 278, 278, 0, 0, 0, 0, 1015, 667, 667, 722, 722, 667, 611, 0, 722, 278, 0, 667, 0, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 556, 500, 556, 556, 278, 556, 556, 222, 222, 500, 222, 833, 556, 556, 556, 556, 333, 500, 278, 556, 500, 722, 500, 500], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/HXFYLK+Helvetica-Bold', '/FontDescriptor': IndirectObject(15, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 333, 278, 278, 0, 556, 556, 556, 556, 556, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 722, 0, 722, 722, 667, 0, 778, 722, 278, 0, 722, 611, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 611, 556, 611, 556, 333, 611, 611, 278, 0, 0, 278, 889, 611, 611, 611, 0, 389, 556, 333, 611, 0, 778, 0, 556], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/DDDTXV+Helvetica', '/FontDescriptor': IndirectObject(9, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 191, 333, 333, 0, 0, 278, 333, 278, 0, 556, 556, 556, 556, 556, 556, 556, 556, 0, 0, 278, 278, 0, 0, 0, 0, 1015, 667, 667, 722, 722, 667, 611, 0, 722, 278, 0, 667, 0, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 556, 500, 556, 556, 278, 556, 556, 222, 222, 500, 222, 833, 556, 556, 556, 556, 333, 500, 278, 556, 500, 722, 500, 500], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/HXFYLK+Helvetica-Bold', '/FontDescriptor': IndirectObject(15, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 333, 278, 278, 0, 556, 556, 556, 556, 556, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 722, 0, 722, 722, 667, 0, 778, 722, 278, 0, 722, 611, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 611, 556, 611, 556, 333, 611, 611, 278, 0, 0, 278, 889, 611, 611, 611, 0, 389, 556, 333, 611, 0, 778, 0, 556], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/DDDTXV+Helvetica', '/FontDescriptor': IndirectObject(9, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 191, 333, 333, 0, 0, 278, 333, 278, 0, 556, 556, 556, 556, 556, 556, 556, 556, 0, 0, 278, 278, 0, 0, 0, 0, 1015, 667, 667, 722, 722, 667, 611, 0, 722, 278, 0, 667, 0, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 556, 500, 556, 556, 278, 556, 556, 222, 222, 500, 222, 833, 556, 556, 556, 556, 333, 500, 278, 556, 500, 722, 500, 500], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/HXFYLK+Helvetica-Bold', '/FontDescriptor': IndirectObject(15, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 333, 278, 278, 0, 556, 556, 556, 556, 556, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 722, 0, 722, 722, 667, 0, 778, 722, 278, 0, 722, 611, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 611, 556, 611, 556, 333, 611, 611, 278, 0, 0, 278, 889, 611, 611, 611, 0, 389, 556, 333, 611, 0, 778, 0, 556], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/DDDTXV+Helvetica', '/FontDescriptor': IndirectObject(9, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 191, 333, 333, 0, 0, 278, 333, 278, 0, 556, 556, 556, 556, 556, 556, 556, 556, 0, 0, 278, 278, 0, 0, 0, 0, 1015, 667, 667, 722, 722, 667, 611, 0, 722, 278, 0, 667, 0, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 556, 500, 556, 556, 278, 556, 556, 222, 222, 500, 222, 833, 556, 556, 556, 556, 333, 500, 278, 556, 500, 722, 500, 500], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/HXFYLK+Helvetica-Bold', '/FontDescriptor': IndirectObject(15, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 333, 278, 278, 0, 556, 556, 556, 556, 556, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 722, 0, 722, 722, 667, 0, 778, 722, 278, 0, 722, 611, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 611, 556, 611, 556, 333, 611, 611, 278, 0, 0, 278, 889, 611, 611, 611, 0, 389, 556, 333, 611, 0, 778, 0, 556], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/DDDTXV+Helvetica', '/FontDescriptor': IndirectObject(9, 0, 4431480960), '/Type': '/Font', '/FirstChar': 32, '/LastChar': 121, '/Widths': [278, 0, 0, 0, 0, 0, 0, 191, 333, 333, 0, 0, 278, 333, 278, 0, 556, 556, 556, 556, 556, 556, 556, 556, 0, 0, 278, 278, 0, 0, 0, 0, 1015, 667, 667, 722, 722, 667, 611, 0, 722, 278, 0, 667, 0, 833, 722, 778, 667, 0, 722, 667, 611, 722, 0, 944, 0, 0, 0, 0, 0, 0, 0, 0, 0, 556, 556, 500, 556, 556, 278, 556, 556, 222, 222, 500, 222, 833, 556, 556, 556, 556, 333, 500, 278, 556, 500, 722, 500, 500], '/Encoding': '/WinAnsiEncoding', '/Subtype': '/Type1'}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+   discovered 5 programmes
+   NEW        56.7% REVIEW_REQUIRED  Commonwealth Scholarship Commission Scholarships
+   NEW        78.0% REVIEW_REQUIRED  Commonwealth Fellowships
+   NEW        70.5% REVIEW_REQUIRED  Commonwealth PhD Scholarships
+   NEW        82.6% REVIEW_REQUIRED  Commonwealth Master’s Scholarships
+   NEW        60.2% REVIEW_REQUIRED  Commonwealth Shared Scholarship
+[hub] generic    https://www.inlaksfoundation.org/scholarships/
+   discovered 1 programmes
+   NEW        83.6% REVIEW_REQUIRED  The Inlaks Scholarship
+[hub] generic    https://www.flame.edu.in/admissions/scholarships
+   discovered 0 programmes
+[hub] generic    https://www.vit.ac.in/admissions/scholarships
+   discovered 1 programmes
+   NEW        63.5% REVIEW_REQUIRED  vit.ac.in Scholarship
+[hub] generic    https://www.nitk.ac.in/scholarships
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/MKGUYP+Montserrat-SemiBold', '/Encoding': IndirectObject(49, 0, 4432058064), '/FirstChar': 31, '/FontDescriptor': IndirectObject(51, 0, 4432058064), '/LastChar': 118, '/Subtype': '/Type1', '/Type': '/Font', '/Widths': [674, 241, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 617, 0, 0, 0, 0, 0, 235, 0, 0, 0, 0, 0, 0, 759, 0, 694, 769, 668, 0, 0, 787, 0, 0, 737, 0, 915, 788, 806, 0, 812, 724, 637, 601, 0, 0, 1066, 0, 0, 0, 0, 0, 0, 0, 0, 0, 596, 0, 563, 685, 597, 0, 645, 675, 302, 0, 619, 313, 0, 670, 633, 684, 0, 416, 499, 426, 660, 556]}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/CVGHOJ+Montserrat-Bold', '/Encoding': '/WinAnsiEncoding', '/FirstChar': 32, '/FontDescriptor': IndirectObject(53, 0, 4432058064), '/LastChar': 121, '/Subtype': '/Type1', '/Type': '/Font', '/Widths': [283, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 262, 0, 679, 0, 590, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 766, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 808, 0, 0, 0, 0, 638, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 690, 0, 0, 631, 0, 0, 0, 0, 0, 0, 301, 1049, 0, 655, 690, 0, 431, 0, 435, 0, 0, 937, 0, 598]}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/SBBZED+Montserrat-Regular', '/Encoding': '/WinAnsiEncoding', '/FirstChar': 32, '/FontDescriptor': IndirectObject(55, 0, 4432058064), '/LastChar': 146, '/Subtype': '/Type1', '/Type': '/Font', '/Widths': [258, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 368, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 738, 0, 697, 0, 0, 0, 0, 0, 0, 0, 0, 0, 925, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 586, 680, 564, 682, 588, 0, 640, 669, 284, 0, 595, 295, 1043, 663, 625, 680, 0, 394, 470, 407, 653, 0, 893, 0, 531, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 214]}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+fontTools is required to fully parse the encoding of a CFF Type1 font in font dictionary {'/BaseFont': '/JLQXIV+Montserrat-Medium', '/Encoding': IndirectObject(49, 0, 4432058064), '/FirstChar': 31, '/FontDescriptor': IndirectObject(57, 0, 4432058064), '/LastChar': 121, '/Subtype': '/Type1', '/Type': '/Font', '/Widths': [646, 251, 222, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 225, 337, 0, 0, 0, 0, 0, 0, 617, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 747, 709, 696, 773, 661, 583, 0, 0, 306, 0, 0, 0, 0, 0, 809, 675, 0, 723, 628, 588, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 590, 681, 564, 0, 592, 355, 642, 672, 291, 0, 605, 302, 1041, 666, 629, 681, 0, 403, 482, 415, 656, 537, 905, 0, 544]}, but is not installed. Consider installing fontTools if you encounter encoding problems.
+Ignoring wrong pointing object 11 0 (offset 0)
+Ignoring wrong pointing object 13 0 (offset 0)
+Ignoring wrong pointing object 31 0 (offset 0)
+Ignoring wrong pointing object 33 0 (offset 0)
+Ignoring wrong pointing object 35 0 (offset 0)
+Ignoring wrong pointing object 37 0 (offset 0)
+Ignoring wrong pointing object 39 0 (offset 0)
+Ignoring wrong pointing object 41 0 (offset 0)
+Ignoring wrong pointing object 11 0 (offset 0)
+Ignoring wrong pointing object 13 0 (offset 0)
+Ignoring wrong pointing object 31 0 (offset 0)
+Ignoring wrong pointing object 33 0 (offset 0)
+Ignoring wrong pointing object 35 0 (offset 0)
+Ignoring wrong pointing object 37 0 (offset 0)
+Ignoring wrong pointing object 39 0 (offset 0)
+Ignoring wrong pointing object 41 0 (offset 0)
+   discovered 9 programmes
+   NEW        45.2% REVIEW_REQUIRED  nitk.ac.in Scholarships
+   NEW        43.2% REVIEW_REQUIRED  nitk.ac.in Application Form Scholarship
+   NEW        34.3% REVIEW_REQUIRED  IDFC FIRST Bank Engineering Scholarship Programme 2026-30
+   NEW        48.2% REVIEW_REQUIRED  Reliance Foundation Postgraduate Scholarships 2026-27
+   NEW        40.2% REVIEW_REQUIRED  Young India Sports Fellowship (YISF)
+   NEW        63.2% REVIEW_REQUIRED  Shraman Foundation Scholarship Program 2026-27
+   NEW        77.3% REVIEW_REQUIRED  Kalpana Chawla Chhatravrati Yojna for Girls Scholarship Scheme 2025- 2
+   NEW        70.7% REVIEW_REQUIRED  PM YASASVI Scholarship for OBC / EBC / DNT students - 2026-27
+   NEW        84.3% REVIEW_REQUIRED  Applications for Institute Scholarship 2025-26
+[hub] generic    https://www.iitk.ac.in/dosa/scholarships
+   discovered 0 programmes
+[hub] generic    https://nitt.edu/home/academics/scholarships/
+Ignoring wrong pointing object 2 65536 (offset 0)
+Ignoring wrong pointing object 7 65536 (offset 0)
+Ignoring wrong pointing object 12 65536 (offset 0)
+Ignoring wrong pointing object 17 65536 (offset 0)
+Ignoring wrong pointing object 22 65536 (offset 0)
+Ignoring wrong pointing object 27 65536 (offset 0)
+Ignoring wrong pointing object 32 65536 (offset 0)
+Ignoring wrong pointing object 37 65536 (offset 0)
+Ignoring wrong pointing object 42 65536 (offset 0)
+Ignoring wrong pointing object 47 65536 (offset 0)
+Ignoring wrong pointing object 52 65536 (offset 0)
+Ignoring wrong pointing object 57 65536 (offset 0)
+Ignoring wrong pointing object 62 65536 (offset 0)
+Ignoring wrong pointing object 67 65536 (offset 0)
+Ignoring wrong pointing object 72 65536 (offset 0)
+Ignoring wrong pointing object 77 65536 (offset 0)
+Ignoring wrong pointing object 82 65536 (offset 0)
+Ignoring wrong pointing object 87 65536 (offset 0)
+Ignoring wrong pointing object 92 65536 (offset 0)
+Ignoring wrong pointing object 97 65536 (offset 0)
+Ignoring wrong pointing object 102 65536 (offset 0)
+Ignoring wrong pointing object 107 65536 (offset 0)
+Ignoring wrong pointing object 112 65536 (offset 0)
+Ignoring wrong pointing object 117 65536 (offset 0)
+Ignoring wrong pointing object 122 65536 (offset 0)
+Ignoring wrong pointing object 127 65536 (offset 0)
+Ignoring wrong pointing object 132 65536 (offset 0)
+Ignoring wrong pointing object 137 65536 (offset 0)
+Ignoring wrong pointing object 142 65536 (offset 0)
+Ignoring wrong pointing object 147 65536 (offset 0)
+Ignoring wrong pointing object 152 65536 (offset 0)
+Ignoring wrong pointing object 157 65536 (offset 0)
+Ignoring wrong pointing object 2 65536 (offset 0)
+Ignoring wrong pointing object 7 65536 (offset 0)
+Ignoring wrong pointing object 12 65536 (offset 0)
+Ignoring wrong pointing object 17 65536 (offset 0)
+Ignoring wrong pointing object 22 65536 (offset 0)
+Ignoring wrong pointing object 27 65536 (offset 0)
+Ignoring wrong pointing object 32 65536 (offset 0)
+Ignoring wrong pointing object 37 65536 (offset 0)
+Ignoring wrong pointing object 42 65536 (offset 0)
+Ignoring wrong pointing object 47 65536 (offset 0)
+Ignoring wrong pointing object 52 65536 (offset 0)
+Ignoring wrong pointing object 57 65536 (offset 0)
+Ignoring wrong pointing object 62 65536 (offset 0)
+Ignoring wrong pointing object 67 65536 (offset 0)
+Ignoring wrong pointing object 72 65536 (offset 0)
+Ignoring wrong pointing object 77 65536 (offset 0)
+Ignoring wrong pointing object 82 65536 (offset 0)
+Ignoring wrong pointing object 87 65536 (offset 0)
+Ignoring wrong pointing object 92 65536 (offset 0)
+Ignoring wrong pointing object 97 65536 (offset 0)
+Ignoring wrong pointing object 102 65536 (offset 0)
+Ignoring wrong pointing object 107 65536 (offset 0)
+Ignoring wrong pointing object 112 65536 (offset 0)
+Ignoring wrong pointing object 117 65536 (offset 0)
+Ignoring wrong pointing object 122 65536 (offset 0)
+Ignoring wrong pointing object 127 65536 (offset 0)
+Ignoring wrong pointing object 132 65536 (offset 0)
+Ignoring wrong pointing object 137 65536 (offset 0)
+Ignoring wrong pointing object 142 65536 (offset 0)
+Ignoring wrong pointing object 147 65536 (offset 0)
+Ignoring wrong pointing object 152 65536 (offset 0)
+Ignoring wrong pointing object 157 65536 (offset 0)
+   discovered 2 programmes
+   NEW        56.3% REVIEW_REQUIRED  Scholarship Section
+   NEW        50.0% REVIEW_REQUIRED  Post Doctoral Fellowship (MeitY)
+[hub] generic    https://www.christuniversity.in/scholarships
+   discovered 1 programmes
+   NEW        79.3% REVIEW_REQUIRED  CHRIST Scholarships
+[hub] aggregator https://www.scholarships.net.in/
+   0 leads (never verified from aggregator)
+[done] {"pages_fetched": 362, "hubs": 18, "candidates": 61, "new": 61, "changed": 0, "unchanged": 0, "removed": 0, "leads": 0, "errors": 0, "finished": "2026-11-02T18:58:29"}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scholarship Intelligence</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#14181f;--mut:#5b6573;--line:#e3e7ed;--acc:#1f5eff;--ok:#0b7a4b;--okbg:#e3f5ec;--warn:#9a5b00;--warnbg:#fff1d6;--bad:#b3261e;--badbg:#fde7e5;--neu:#445066;--neubg:#e9edf3}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1319;--card:#171d26;--ink:#e8ecf2;--mut:#94a0b2;--line:#27303d;--acc:#6b9bff;--ok:#5fd39a;--okbg:#12301f;--warn:#f0b960;--warnbg:#33260c;--bad:#ff8f87;--badbg:#3a1613;--neu:#aab6c8;--neubg:#232c39}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header{padding:20px 24px 8px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}h1{font-size:20px;margin:0}header span{color:var(--mut)}
+main{padding:8px 24px 40px;max-width:1280px;margin:0 auto}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.k{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut)}.v{font-size:26px;font-weight:650;margin-top:2px}
+.row2{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));margin-top:12px}
+h2{font-size:14px;margin:0 0 8px}
+.bar{display:flex;height:10px;border-radius:5px;overflow:hidden;background:var(--neubg);margin:6px 0}.bar i{display:block}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);font-weight:600}
+tbody tr.clk{cursor:pointer}tbody tr.clk:hover{background:var(--neubg)}
+.pill{display:inline-block;padding:1px 8px;border-radius:99px;font-size:11px;font-weight:600;white-space:nowrap}
+.ACTIVE,.VERIFIED,.ok{background:var(--okbg);color:var(--ok)}.EXPIRING_SOON,.REVIEW_REQUIRED,.UPCOMING,.warnp{background:var(--warnbg);color:var(--warn)}
+.EXPIRED,.NO_LONGER_VERIFIABLE,.badp{background:var(--badbg);color:var(--bad)}.neu{background:var(--neubg);color:var(--neu)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 8px}input,select,button{font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}input{min-width:240px;flex:1}
+button{cursor:pointer}a{color:var(--acc);word-break:break-all}
+#drawer{position:fixed;inset:0 0 0 auto;width:min(760px,100%);background:var(--bg);border-left:1px solid var(--line);overflow:auto;padding:20px;transform:translateX(100%);transition:.2s;box-shadow:-8px 0 30px rgba(0,0,0,.15)}#drawer.open{transform:none}
+.kv{display:grid;grid-template-columns:150px 1fr;gap:6px 14px}.kv div:nth-child(odd){color:var(--mut)}
+.q{font-size:12px;color:var(--mut);border-left:3px solid var(--line);padding:2px 8px;margin-top:4px;background:var(--card)}
+.sc{display:grid;grid-template-columns:150px 1fr 60px;gap:8px;align-items:center;margin:6px 0}.sc .t{height:8px;background:var(--neubg);border-radius:4px;overflow:hidden}.sc .t i{display:block;height:100%;background:var(--acc)}
+.small{font-size:12px;color:var(--mut)}.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px}.sim{background:var(--warnbg);color:var(--warn);padding:1px 6px;border-radius:4px;font-size:10px;font-weight:700}
+@media(max-width:640px){main,header{padding-left:14px;padding-right:14px}.kv{grid-template-columns:1fr}.hide-s{display:none}}
+</style>
+</head>
+<body>
+<header><h1>Scholarship Intelligence</h1><span>Atlas Funding · evidence-based crawler repository · <span id="asof"></span></span></header>
+<main>
+  <div class="grid" id="tiles"></div>
+  <div class="row2">
+    <div class="card"><h2>Status</h2><div id="status"></div></div>
+    <div class="card"><h2>Source types</h2><div id="types"></div></div>
+    <div class="card"><h2>Crawl runs</h2><div id="runs"></div></div>
+  </div>
+  <div class="card" style="margin-top:12px"><h2>Recent changes detected</h2><div id="changes"></div></div>
+
+  <div class="tools">
+    <input id="q" placeholder="Search name, provider, eligibility, category…">
+    <select id="fl"><option value="">All verification</option><option>VERIFIED</option><option>REVIEW_REQUIRED</option></select>
+    <select id="fs"><option value="">All status</option><option>ACTIVE</option><option>EXPIRING_SOON</option><option>UPCOMING</option><option>EXPIRED</option><option>REVIEW_REQUIRED</option><option>NO_LONGER_VERIFIABLE</option></select>
+    <select id="ft"><option value="">All source types</option></select>
+    <select id="so"><option value="confidence">Sort: confidence</option><option value="name">Sort: name</option><option value="deadline">Sort: deadline</option><option value="verified">Sort: last verified</option></select>
+  </div>
+  <div class="card" style="padding:0;overflow:auto"><table><thead><tr><th>Scholarship</th><th class="hide-s">Provider</th><th class="hide-s">Type</th><th>Deadline</th><th>Status</th><th>Confidence</th></tr></thead><tbody id="list"></tbody></table></div>
+  <p class="small" id="count"></p>
+</main>
+<aside id="drawer"></aside>
+<script>
+const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pill=(t,c)=>`<span class="pill ${c||t}">${esc(String(t).replace(/_/g,' '))}</span>`;
+const get=async u=>(await fetch(u)).json();
+const fmtDate=d=>{if(!d||!/^\d{4}-\d\d-\d\d/.test(d))return d||'—';return new Date(d.slice(0,10)+'T00:00').toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'})};
+const TYPES={government:'Government',university:'University',corporate_csr:'Corporate CSR',foundation_trust:'Foundation / Trust',international:'International'};
+async function stats(){
+  const s=await get('/api/stats');
+  $('#asof').textContent='as of '+new Date().toLocaleString('en-IN',{dateStyle:'medium',timeStyle:'short'});
+  const t=[['Total discovered',s.total],['Verified (≥95%)',s.verified],['Review required',s.review],['Active',(s.by_status.ACTIVE||0)+(s.by_status.EXPIRING_SOON||0)],['Expired',s.by_status.EXPIRED||0],['No longer verifiable',s.by_status.NO_LONGER_VERIFIABLE||0],['Avg confidence',s.avg_conf+'%'],['Changes detected',s.changes]];
+  $('#tiles').innerHTML=t.map(([k,v])=>`<div class="card"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('');
+  const col={ACTIVE:'var(--ok)',EXPIRING_SOON:'var(--warn)',UPCOMING:'var(--acc)',EXPIRED:'var(--bad)',REVIEW_REQUIRED:'#c58b2a',NO_LONGER_VERIFIABLE:'#7a2e2a'};
+  $('#status').innerHTML=`<div class="bar">${Object.entries(s.by_status).map(([k,v])=>`<i style="width:${v/s.total*100}%;background:${col[k]||'#888'}" title="${k}"></i>`).join('')}</div>`+Object.entries(s.by_status).map(([k,v])=>`<div class="small">${pill(k)} ${v}</div>`).join('');
+  $('#types').innerHTML=`<table>`+s.by_type.map(r=>`<tr><td>${TYPES[r.source_type]||r.source_type}</td><td>${r.n} records</td><td>${r.v||0} verified</td></tr>`).join('')+`</table>`;
+  $('#runs').innerHTML=`<table>`+s.runs.map(r=>{const st=r.stats_json?JSON.parse(r.stats_json):{};return `<tr><td>#${r.id} ${r.mode==='live'?pill('live','ok'):pill(r.mode,'warnp')}</td><td class="small">${(r.started_at||'').replace('T',' ')}</td><td class="small">new ${st.new??'–'} · changed ${st.changed??'–'} · removed ${st.removed??'–'}${r.note?'<br>'+esc(r.note):''}</td></tr>`}).join('')+`</table>`;
+  $('#changes').innerHTML=s.recent_changes.length?`<table><thead><tr><th>Scholarship</th><th>Field</th><th>Old → New</th><th>Detected</th></tr></thead>`+s.recent_changes.map(c=>`<tr class="clk" onclick="openS(${c.scholarship_id})"><td>${esc(c.name)}</td><td>${esc(c.field)} ${c.simulated?'<span class="sim">SIMULATED SOURCE EDIT</span>':''}</td><td>${esc(c.old_value)} → <b>${esc(c.new_value)}</b></td><td class="small">${(c.detected_at||'').replace('T',' ')}</td></tr>`).join('')+`</table>`:'<span class="small">No changes yet — run the crawler again.</span>';
+  const sel=$('#ft'); if(sel.options.length<2) s.by_type.forEach(r=>sel.add(new Option(TYPES[r.source_type]||r.source_type,r.source_type)));
+}
+async function list(){
+  const p=new URLSearchParams({q:$('#q').value,label:$('#fl').value,status:$('#fs').value,type:$('#ft').value,sort:$('#so').value});
+  const d=await get('/api/scholarships?'+p);
+  $('#count').textContent=d.length+' scholarships';
+  $('#list').innerHTML=d.map(r=>`<tr class="clk" onclick="openS(${r.id})"><td><b>${esc(r.name)}</b><div class="small">${esc(r.amount)}</div></td><td class="hide-s">${esc(r.provider)}</td><td class="hide-s">${TYPES[r.source_type]||r.source_type}</td><td>${fmtDate(r.closing_date)}</td><td>${pill(r.status)}</td><td>${r.confidence.toFixed(1)}% ${pill(r.label)}${r.nchanges?` <span class="small">· ${r.nchanges}Δ</span>`:''}</td></tr>`).join('');
+}
+const LABELS=[['education_level','Course / level'],['eligibility','Eligibility'],['academic','Academic'],['income','Income'],['age','Age'],['gender','Gender'],['category','Category'],['domicile','Domicile / citizenship'],['institution','Institution'],['opening_date','Opening date'],['closing_date','Closing date'],['amount','Amount / benefit'],['num_awards','Number of awards'],['documents','Documents'],['selection','Selection process'],['renewal','Renewal']];
+async function openS(id){
+  const d=await get('/api/scholarships/'+id), s=d.scholarship, ev={}; d.evidence.forEach(e=>ev[e.field]=e);
+  const col={education_level:'education_level',eligibility:'eligibility',academic:'academic_requirements',income:'income_criteria',age:'age_criteria',gender:'gender_criteria',category:'category_criteria',domicile:'domicile',institution:'institution_requirements',opening_date:'opening_date',closing_date:'closing_date',amount:'amount',num_awards:'num_awards',documents:'documents_required',selection:'selection_process',renewal:'renewal'};
+  const val=f=>{const v=s[col[f]];return v&&v!=='Not specified'?esc(v):'<span class="small">Not specified</span>'};
+  const brk=d.breakdown.filter(b=>b.check_name!=='penalties_and_caps'), pen=d.breakdown.find(b=>b.check_name==='penalties_and_caps');
+  $('#drawer').innerHTML=`<button onclick="closeD()" style="float:right">Close ✕</button>
+  <h1 style="font-size:18px;max-width:560px">${esc(s.name)}</h1>
+  <div style="margin:6px 0 14px">${pill(s.label)} ${pill(s.status)} <b style="margin-left:6px">${s.confidence.toFixed(1)}%</b> <span class="small">· ${TYPES[s.source_type]||s.source_type}</span></div>
+  <div class="card"><div class="kv">
+    <div>Provider</div><div>${esc(s.provider)}</div>
+    <div>Official source</div><div><a href="${esc(s.official_url)}" target="_blank" rel="noopener">${esc(s.official_url)}</a></div>
+    <div>Application link</div><div>${s.application_url&&s.application_url.startsWith('http')?`<a href="${esc(s.application_url)}" target="_blank" rel="noopener">${esc(s.application_url)}</a>`:'<span class="small">Not specified</span>'}</div>
+    <div>Last verified</div><div>${esc((s.last_verified||'').replace('T',' '))}</div>
+    <div>First seen</div><div>${esc((s.first_seen||'').replace('T',' '))}</div>
+  </div></div>
+  <h2 style="margin-top:16px">Why this score?</h2><div class="card">
+    ${brk.map(b=>`<div class="sc"><div>${b.check_name.replace(/_/g,' ')}</div><div class="t"><i style="width:${b.score*100}%"></i></div><div class="mono">${b.points}/${b.weight}</div></div><div class="small" style="margin:-4px 0 6px 158px">${esc(b.detail)}</div>`).join('')}
+    ${pen?`<div class="small" style="margin-top:8px;color:var(--warn)">Adjustments: ${pen.points?pen.points+' pts · ':''}${esc(pen.detail)}</div>`:''}
+    <div class="small" style="margin-top:6px">Score = Σ weight × evidence score − penalties, then hard caps (non-official source ≤ 70, aggregator ≤ 60). VERIFIED requires ≥ 95. No LLM produces any number.</div></div>
+  <h2 style="margin-top:16px">Scholarship details &amp; source evidence</h2><div class="card">
+  ${LABELS.map(([f,l])=>{const e=ev[f];return `<div class="kv" style="margin-bottom:10px"><div>${l}</div><div>${val(f)}${e?`<div class="q">“${esc(e.quote)}”<div class="mono" style="margin-top:3px">${e.quote_verified?'✔ quote found verbatim in snapshot':'✘ quote not verified'} · <a href="${esc(e.source_url)}" target="_blank" rel="noopener">${esc(e.source_url)}</a> · ${esc(e.method)}</div></div>`:''}</div></div>`}).join('')}</div>
+  <h2 style="margin-top:16px">Change history</h2><div class="card">${d.changes.length?`<table><thead><tr><th>Detected</th><th>Field</th><th>Old</th><th>New</th></tr></thead>`+d.changes.map(c=>`<tr><td class="small">${esc((c.detected_at||'').replace('T',' '))}<br>run #${c.run_id} ${c.simulated?'<span class="sim">SIMULATED SOURCE EDIT</span>':''}</td><td>${esc(c.field)}<div class="small">${esc(c.change_type)}</div></td><td>${esc(c.old_value)}${c.old_quote?`<div class="q">${esc(c.old_quote)}</div>`:''}</td><td><b>${esc(c.new_value)}</b>${c.new_quote?`<div class="q">${esc(c.new_quote)}</div>`:''}<div class="small"><a href="${esc(c.source_url)}" target="_blank" rel="noopener">source</a></div></td></tr>`).join('')+'</table>':'<span class="small">No changes detected so far.</span>'}</div>`;
+  $('#drawer').classList.add('open');
+}
+function closeD(){$('#drawer').classList.remove('open')}
+addEventListener('keydown',e=>{if(e.key==='Escape')closeD()});
+['q','fl','fs','ft','so'].forEach(i=>$('#'+i).addEventListener('input',list));
+stats();list();
+</script>
+</body>
+</html>
